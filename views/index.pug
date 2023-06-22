@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+      
+  body
+    nav#navbar.top
+        ul 
+            div#logo
+              img(src="../static/pic1.png", alt="Error Loading Image")
+              | DA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introsection
+        div#div1 Welcome to Dance Academy
+        div#div2 Let's Dance
+    section#ourmission 
+        h2 our mission 
+        div.card
+          h3 Classical
+          div.card-box
+            div.card-img
+              img(src="../static/pic3.png", alt="")
+            div.card-content
+              p This is Card Content
+        div.card
+          h3 Hip-Hop 
+          div.card-box
+            div.card-img.hiphop
+              img(src="../static/hip-hop.png", alt="")
+            div.card-content.left
+              p This is Card Content
+        div.card
+          h3 Mass
+          div.card-box
+            div.card-img
+              img(src="../static/pic2.png", alt="")
+            div.card-content
+              p This is Card Content
+    section#sponsersection 
+        h2 Our Sponsers
+        div#sponsers
+          img(src="../static/apple.png", alt="",Class="spimg")
+          img(src="../static/hp.png", alt="",Class="spimg")
+          img(src="../static/skype.jpg", alt="",Class="spimg")
+          img(src="../static/windows.png", alt="",Class="spimg")
+    footer#footer
+        | &copy;copyright 2023 DanceAcademy.com All rights reserved.
+    script
+      include ../static/index.js
