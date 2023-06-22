@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mukta&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#logo {
+    cursor: default;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 19px;
+
+}
+
+#logo img {
+    
+    height: 42px;
+    filter: invert(1);
+    
+}
+
+
+     #navbar {
+    background-color: black;
+    padding: 10px 3px;
+    margin: auto;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}   
+
+#navbar  li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 28px;
+    margin: 4px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#navbar li a:hover {
+    color:  #e3d618;
+} 
+
+#introsection {
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    /* background-color: red; */
+    background: center / cover no-repeat url('/static/bgimage.jpg');
+}
+
+#div1 {
+
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(29 144 155 / 96%);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 20px;
+    padding: 3px 4px;
+
+}
+
+#div2 {
+
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(81 103 105 / 96%);
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0px 20px;
+
+
+}
+
+#ourmission {
+    background: center / cover no-repeat url('../static/bg3.webp');
+    ;
+}
+
+#ourmission h2 {
+    color: #c132ff;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 25px;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px 58px;
+    padding: 9px 14px;
+    height: 200px;
+    width: 380px;
+}
+
+.card h3 {
+    margin:10px auto ;
+    text-align: center;
+}
+.card-box{
+display: flex;
+align-items: center;
+}
+.card-img{
+  margin: 0px;
+    
+}
+.card-img img{
+    height: 100px;
+    filter: invert();
+    padding: 10px 4px;
+    margin:10px 10px 5px 7px;
+    width: 90%;
+   
+}
+.hiphop{
+    width: 40%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -22px;
+    
+}
+.card-content{
+padding-left:30px;
+width: inherit;
+}
+.left{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#sponsersection {
+    background-color: white;
+    height: 190px;
+}
+
+#sponsersection h2 {
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+
+}
+#sponsers{
+    height: 120px;
+    margin: auto;
+    max-width: 50%;
+}
+.spimg{
+    height: 80%;
+    margin: 20px;
+}
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+}

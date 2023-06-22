@@ -1,0 +1,57 @@
+extends base.pug
+block scripts
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    //- nav#navbar.top
+    //-     ul 
+    //-         div#logo
+    //-           img(src="../static/pic1.png", alt="Error Loading Image")
+    //-           | DA
+    //-         li #[a(href="/") Home]
+    //-         li #[a(href="/") About]
+    //-         li #[a(href="/") Services]
+    //-         li #[a(href="/") Class Info]
+    //-         li #[a(href="/") Contact Us]
+    section#introsection
+        div#div1 Welcome to Our Dance Academy
+        div#div2 Let's Dance
+    section#ourmission 
+        h2 our Specialities 
+        div.card
+          h3 Classical
+          div.card-box
+            div.card-img
+              img(src="../static/pic3.png", alt="")
+            div.card-content
+              p A basic form of art because it is
+              p rooted in classical ballet and opera
+        div.card
+          h3 Hip-Hop 
+          div.card-box
+            div.card-img.hiphop
+              img(src="../static/pic2.png", alt="")
+            div.card-content.left
+              p A vibrant form of 
+              p dance that combines a 
+              p variety of freestyle movements 
+              p to create a cultural 
+              p piece of art.
+        div.card
+          h3 Ballet Dance
+          div.card-box
+            div.card-img
+              img(src="../static/ballet dance.jpg", alt="")
+            div.card-content
+              p an art form created by the
+              p  movement of the human body
+    section#sponsersection 
+        h2 Our Sponsers
+        div#sponsers
+          img(src="../static/apple.png", alt="",Class="spimg")
+          img(src="../static/hp.png", alt="",Class="spimg")
+          img(src="../static/skype.jpg", alt="",Class="spimg")
+          img(src="../static/windows.png", alt="",Class="spimg")
